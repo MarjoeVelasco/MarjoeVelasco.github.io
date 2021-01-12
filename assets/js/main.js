@@ -218,6 +218,11 @@
 
 })(jQuery);
 
+
+document.getElementById("shortpadlink").onclick = function () {
+	window.location = "https://github.com/MarjoeVelasco/Shortpad";  
+};
+
 document.getElementById("magrow-link").onclick = function () {
 	window.location = "https://play.google.com/store/apps/details?id=magrow.project.application&hl=en";  
 };
